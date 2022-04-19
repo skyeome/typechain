@@ -1,6 +1,19 @@
-const sayHi = (name:string, age:number, gender:string):string =>{
-  return `Hello ${name}, you are ${age} years old, you are ${gender}`;
+interface Human{
+  name:string;
+  age:number;
+  gender:string;
 }
-console.log(sayHi("S.K Kim", 30, "male"));
-// error가 발생한다. sayHi("S.K Kim", "30", "male");
+
+const person = {
+  name:"S.K Kim",
+  age:30,
+  gender:"male"
+}
+
+const sayHi = (person: Human):string => {
+  return `Hello ${person.name}, you are ${person.age} years old, you are ${person.gender}!`;
+}
+
+console.log(sayHi(person));
+
 export {};
