@@ -1,0 +1,23 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Simple BlockChain made by TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://skyeome@github.com/skyeome/typechain.git"
+  },
+  "keywords": [],
+  "author": "skyeome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyeome/typechain/issues"
+  },
+  "homepage": "https://github.com/skyeome/typechain#readme",
+  "dependencies": {}
+}
