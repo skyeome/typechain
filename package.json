@@ -19,7 +19,9 @@
     "url": "https://github.com/skyeome/typechain/issues"
   },
   "homepage": "https://github.com/skyeome/typechain#readme",
-  "dependencies": {},
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
   "devDependencies": {
     "tsc-watch": "^5.0.3"
   }
